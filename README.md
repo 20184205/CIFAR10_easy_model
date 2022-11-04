@@ -28,7 +28,7 @@
 
 ​		CIFAR-10 含有的是现实世界中真实的物体，不仅噪声很大，而且物体的比例、特征都不尽相同，这为识别带来很大困难。由于数据集中每张图像为32x32，包含有RGB3个通道，按照RGB通道顺序以及每一通道按照行的顺序已排列好，一个训练样本对应一行有32x32x3=3072个值。
 
-![output](D:\人工智能安全\picture\output.png)
+![output](picture\output.png)
 
 
 
@@ -38,8 +38,8 @@
 
 
 
-<div align=center>
-    <img src="D:\人工智能安全\picture\image-20221010100438802.png" width=500 height=500>
+<div>
+    <img src="picture\image-20221010100438802.png" width=500 height=500>
 
 
 ## 安装
@@ -47,9 +47,7 @@
 ### 1. 克隆代码
 
 ```
-
-# 使用conda安装requirements文件
-conda install --yes --file requirements.txt
+git clone https://github.com/20184205/CIFAR10_easy_model.git
 ```
 
 
@@ -59,7 +57,8 @@ conda install --yes --file requirements.txt
 ```
 conda create -n pytorchcpu python=3.9
 source activate pytorchcpu
-pip install -r requirements.txt
+# 使用conda安装requirements文件
+conda install --yes --file requirements.txt
 ```
 
 
