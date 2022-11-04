@@ -28,8 +28,9 @@
 
 ​		CIFAR-10 含有的是现实世界中真实的物体，不仅噪声很大，而且物体的比例、特征都不尽相同，这为识别带来很大困难。由于数据集中每张图像为32x32，包含有RGB3个通道，按照RGB通道顺序以及每一通道按照行的顺序已排列好，一个训练样本对应一行有32x32x3=3072个值。
 
-![output](.\picture\output.png)
-
+<div>
+    <img src="picture\output.png" width=500 height=500>
+</div>
 
 
 ### ResNet
@@ -40,7 +41,7 @@
 
 <div>
     <img src="picture\image-20221010100438802.png" width=500 height=500>
-
+</div>
 
 ## 安装
 
